@@ -13,9 +13,11 @@ namespace ParOuImpar{
             int soma = num%2;
             if(soma == 0){
                 Console.WriteLine($"O número {num} é PAR");
+                Console.WriteLine("Digite qualquer tecla para sair");
                 Console.ReadKey();
             }else{
                 Console.WriteLine($"O número {num} é ÍMPAR");
+                Console.WriteLine("Digite qualquer tecla para sair");
                 Console.ReadKey();
             }
         }
